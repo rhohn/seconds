@@ -1,3 +1,7 @@
+input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
+    level += -1
+    basic.showNumber(level)
+})
 input.onButtonPressed(Button.A, function () {
     start = input.runningTime()
     basic.showIcon(IconNames.Chessboard)
